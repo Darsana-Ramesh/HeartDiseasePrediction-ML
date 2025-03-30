@@ -7,12 +7,13 @@ import {getFirestore,setDoc,doc} from "https://www.gstatic.com/firebasejs/11.4.0
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD399VovcY6r1vY-P9iAwKazSRu4VU2KwA",
-  authDomain: "login-and-signup-580fe.firebaseapp.com",
-  projectId: "login-and-signup-580fe",
-  storageBucket: "login-and-signup-580fe.firebasestorage.app",
-  messagingSenderId: "294175979079",
-  appId: "1:294175979079:web:ffad6ab1843b12e2706362"
+  //this should be filled with your firebase data
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 
