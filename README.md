@@ -44,3 +44,6 @@ corbeat/
 |__ database.db             # store the number of prediction made using sqlite3
 │── README.md               # Project documentation
 ```
+
+![Alt text](static/images/home-ss.png)
+
