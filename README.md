@@ -33,7 +33,7 @@ pip install flask numpy pandas scikit-learn
 3. Register/Login to access the risk assessment tools.
 
 ## Project Structure
-
+```
 corbeat/
 │── static/                 # CSS, JS, and images
 │── templates/              # HTML templates
@@ -42,3 +42,4 @@ corbeat/
 |__ Model.pkl               # ML trained model
 |__ database.db             # store the number of prediction made using sqlite3
 │── README.md               # Project documentation
+```
