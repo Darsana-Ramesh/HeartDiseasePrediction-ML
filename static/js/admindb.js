@@ -2,21 +2,23 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebas
 import { getDatabase, ref, set, push, get, child } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-database.js";
 import { getFirestore, getDocs, collection } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 const firebaseConfig = {
-  apiKey: "AIzaSyDEZUfJqTkfxqBZ4iYHeUifWRlmlPzTDnM",
-  authDomain: "admin-e4bb2.firebaseapp.com",
-  databaseURL: "https://admin-e4bb2-default-rtdb.firebaseio.com",
-  projectId: "admin-e4bb2",
-  storageBucket: "admin-e4bb2.firebasestorage.app",
-  messagingSenderId: "659079512539",
-  appId: "1:659079512539:web:54a00d7022b420ccb527fe"
+  //this should be filled with your firebase data
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 const userFirebaseConfig = {
-  apiKey: "AIzaSyD399VovcY6r1vY-P9iAwKazSRu4VU2KwA",
-  authDomain: "login-and-signup-580fe.firebaseapp.com",
-  projectId: "login-and-signup-580fe",
-  storageBucket: "login-and-signup-580fe.firebasestorage.app",
-  messagingSenderId: "294175979079",
-  appId: "1:294175979079:web:ffad6ab1843b12e2706362"
+  //this should be filled with your firebase data
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
