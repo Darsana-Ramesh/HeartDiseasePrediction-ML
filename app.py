@@ -10,7 +10,8 @@ import sqlite3
 
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"  
+app.secret_key="your_secret_key"
+
 
 # Train model if not found
 MODEL_PATH = "heart_model.pkl"
