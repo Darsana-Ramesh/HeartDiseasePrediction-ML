@@ -379,8 +379,8 @@
             <p id="riskLevel"></p>
             <p id="suggestion"></p>
             <div class="button-group">
-                <button class="predict-btn" onclick="window.location.href='{{ url_for('hd_prediction') }}'">Go to Prediction Page</button>
-
+                <!-- <button class="predict-btn" onclick="window.location.href='{{ url_for('hd_prediction') }}'">Go to Prediction Page</button> -->
+                <button class="predict-btn" onclick=window.location.href="{{ url_for('hd_prediction') }}">Go to Prediction Page</button>
             </div>
         </div>
     </div>
@@ -416,8 +416,8 @@
                 'fatigue',
                 'swelling',
                 'dizziness',
-                'stress-levels', // added missing question
-                'sleep-quality'   // added missing question
+                'stress-levels', 
+                'sleep-quality'  
             ];
 
             // Calculate the total score
