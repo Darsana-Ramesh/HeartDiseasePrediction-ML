@@ -45,5 +45,6 @@ corbeat/
 │── README.md               # Project documentation
 ```
 <img src="static/images/project-1.png" alt="Project Screenshot" width="500">
-![Alt text](static/images/home-ss.png)
+<img src="static/images/home-ss.png" alt="Project Screenshot" width="500">
+
 
