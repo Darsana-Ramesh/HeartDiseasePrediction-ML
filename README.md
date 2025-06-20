@@ -1,7 +1,7 @@
 ## CORBEAT: A System for predicting Heart Disease ##
 
 ## Overview
-CorBeat is a web-based heart disease risk assessment tool that analyzes user health data and predicts the likelihood of heart disease using a machine learning model with 94.5% of accuracy. 
+CorBeat is a web-based heart disease risk assessment tool that analyzes user health data and predicts the likelihood of heart disease using a machine learning model with 94.5% of accuracy(Random Forest algorithm). 
 The project integrates Flask for backend processing and Firebase for authentication and data storage.
 
 
